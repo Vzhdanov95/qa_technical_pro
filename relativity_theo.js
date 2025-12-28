@@ -7,7 +7,7 @@ max = Math.floor(max);
 to make them all as whole numbers  */
 
 
-function checkProbabiltyTheory(count = getRandomInt()){
+function checkProbabiltyTheory(count){
   let countEven = 0;
   let countOdd = 0;
 
@@ -37,4 +37,6 @@ console.log("Odd percentage:", oddPercent + "%");
 
 }
 
-checkProbabiltyTheory()
+checkProbabiltyTheory(300)
+
+// тобто я все ж таки задаю кількість чисел. 
